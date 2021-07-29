@@ -1,11 +1,14 @@
 ---
+layout: default
 title: CSS
 has_children: false
 nav_order: 1
+has_children: true
+has_toc: true
 ---
 
 
-### Selector NOT
+# Selector NOT
 ```css
 .setPrev:not(.active) { .. }
 .setNext:not(.active) { .. }
